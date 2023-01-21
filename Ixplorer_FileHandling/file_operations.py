@@ -87,3 +87,11 @@ writable()       # Returns True if the file stream can be written to.
 write(s)         # Writes the string s to the file and returns the number of characters written.
 			
 writelines(lines)                  # Writes a list of lines to the file.
+	  
+	  
+print(f.read())
+print(ff.readline())
+print(ff.next())
+f.close()
+f.writelines( iter_seq2 )
+	  
